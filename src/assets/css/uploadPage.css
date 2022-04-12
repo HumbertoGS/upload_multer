@@ -1,0 +1,36 @@
+body{
+    background-color: #aad6e6;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    justify-content: space-around;
+}
+
+.contenedor{
+    width: 700px;
+    height: 350px;
+    border: 3px dashed #1da8d6;
+    padding: 25px;
+    margin-top: 20%;
+    background-color: #ffffff;
+    border-radius: 2%;
+}
+
+.button{
+    background-color: #ffffff;
+    color: #000;
+    border: 2px solid #858383;
+}
+
+.Logo{
+    width: 200px;
+    height: 100px;
+    margin-left: 140px;
+}
+
+.Titulo{
+    color: #1da8d6;
+    margin-top: 7px;
+    margin-bottom: 20px;
+    text-align: center;
+}
